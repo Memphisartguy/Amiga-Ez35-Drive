@@ -1,0 +1,17 @@
+D:      Filesystem      = L:CrossDOSFileSystem
+        Device          = scsi.device
+        Unit            = 2
+        Flags           = 0
+        Surfaces        = 1
+        BlocksPerTrack  = 1
+        Reserved        = 1
+        Interleave      = 0
+        LowCyl          = 32
+        HighCyl         = 169948
+        Buffers         = 128
+        BufMemType      = 0
+        Stacksize       = 4000
+        Priority        = 5
+        GlobVec         = -1
+        DosType         = 0x4D534400
+#
