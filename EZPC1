@@ -1,0 +1,30 @@
+/* Mountfile Entry Created: 15-Jan-97 22:36:33 
+ * for full CrossDOS Disk. 
+ * 
+ * Disk Size: 128.0 Meg 
+ * Vendor and drive name: 005 SyQuest EZ135S          1-17     
+ */ 
+/* Disk size parameters.*/ 
+  Surfaces = 1 
+  BlocksPerTrack = 1 
+  Lowcyl = 0 
+  Highcyl = 262143 
+  BufMemType = 0 
+  Blocksize = 512 
+/* Device driver parameters.*/ 
+  Device = scsi.device 
+  Unit = 5 
+  Flags = 0x00000000 
+/* File system parameters.*/ 
+  Mask = 0xFFFFFFFE 
+  Maxtransfer = 0xFFFFFFFF 
+  Reserved = 4 
+  Filesystem = L:CrossDOSFileSystem 
+  Stacksize = 2000 
+  Priority = 5 
+  Bootpri = -20 
+  Globvec = -1 
+  Buffers = 5 
+  Dostype = 0x4d534800 
+  Mount = 1 
+# 
